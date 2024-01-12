@@ -1,0 +1,114 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(21, 15, 46) ;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(78, 11, 141);
+    position: relative;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.blur1{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px rgb(16, 131, 87);
+    z-index: -200;
+}
+
+.blur2{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px rgb(16, 131, 87);
+    z-index: -200;
+    top: 100%;
+}
+
+.blur3{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px rgb(16, 131, 87);
+    z-index: -200;
+    left: 100%;
+    bottom: 100%;
+}
+
+.blur4{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px rgb(16, 131, 87);
+    z-index: -200;
+    text-align: right;
+    left: 100%;
+    top: 100%;
+}
+
+.form-sing{
+    background-color: #fff;
+    border-color: transparent;
+    justify-items: center;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 50px 60px 70px;
+    
+}
+
+.form-sing h1::after{
+    content: '';
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contiener-input{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+input {
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    width: 100%;
+    font-size: 18px;
+}
+
+#botn{
+    cursor: pointer;
+    font-size: 20px;
+    width: 45%;
+    color: white;
+    background: #3c00a0;
+    border: 0;
+    padding: 20px 10px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    margin-top: 10px;
+    word-spacing: 2px;
+}
+
+.boton1{
+    margin-right: 25px;
+}
+#icl{
+    font-size: 25px;
+}

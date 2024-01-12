@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>More Exercices List</title>
+        <link rel="stylesheet" href="Exercices_List2.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/remixicon.css" />
+</head>
+<body>
+    <!-- ============================= nav ============================ -->
+    <nav>
+        <div class="nav-logo">
+            <img src="logo-seul-mon-site-web.png" alt="this is our logo" />
+        </div>
+        <label for="btn" class="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+        <input type="checkbox" id="btn" />
+        <ul>
+            <li id="link">
+            <a class="home-nav" href="coding.html"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a>
+            </li>
+            <li id="link1">
+            <a class="Exercices-html" href="#">Exercices</a>
+            </li>
+            <li id="link2">
+            <a href="#">Contacte Us&nbsp;&nbsp;<i class="far fa-paper-plane"></i></a>
+            </li>
+            <li>
+            <a class="back-nav" href="Exercice-list.html">Go Back &nbsp;<i class="fa-solid fa-angles-left"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- ================== Header ================= -->
+    <header class="container">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+        <div class="content">
+            <p>
+            Here, you can find some exercises to perform and enhance your
+            comprehension in your course. So, let's go and learn.
+            </p>
+            <br/>
+            <hr/>
+            <br/>
+        </div>
+    </header>
+        <!-- ======================================= Contenue ================================== -->
+    <section class="container">
+        <div class="listEx">
+            <h2>Exercise List :</h2>
+        </div>
+
+        <div class="List-Enseignments">
+            <!-- ================== Exercieces 1 ================= -->
+            <div class="exes">
+                <h4 class="exs">Exercice 1:</h4>
+                <p>
+                    Create a simple HTML page with the following content: "
+                    <span>Hello World!</span>". Use at least one title tag.Selecting a tag from the header tags.
+                </p>
+                <button class="show-sol" onclick="toggleSolution('solution1')" value="Show Solution">Show Solution</button>
+                <div class="solution" id="solution1">
+                    <p>Solution for Exercise 1 :</p>
+                    <pre>
+                        <code id="sol-code" class="html">
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html lang="en"&gt;
+                            &lt;head&gt;
+                                &lt;meta charset="UTF-8"&gt;
+                                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                                &lt;title&gt;Hello World Page&lt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                                &lt;h1 class="function"&gt;Hello World!&lt;/h1&gt;
+                            &lt;/body&gt;
+                            &lt;/html&gt;
+                        </code>
+                    </pre>
+                </div>
+                <a href="Send-solution.html" class="link-sol">Send Us Your Solution</a>
+            </div>
+
+            <!-- ================== Exercieces 2 ================= -->
+
+            <div class="exes">
+                <h4 class="exs">Exercice 2:</h4>
+                <p>
+                    Create an unordered list using the ul element. The list should
+                    contain four items. Each item should be contained within li
+                    elements.
+                </p>
+                <button class="show-sol" onclick="toggleSolution('solution2')" value="Show Solution">Show Solution</button>
+                <div class="solution" id="solution2">
+                    <p>Solution for Exercise 2 :</p>
+                    <pre>
+                        <code id="sol-code" class="language-html">
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html lang=&quot;en&quot;&gt;
+                            &lt;head&gt;
+                                &lt;meta charset=&quot;UTF-8&quot;&gt;
+                                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                                &lt;title&gt;Unordered List Exercise Solution&lt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                                &lt;ul&gt;
+                                    &lt;li&gt;Item 1&lt;/li&gt;
+                                    &lt;li&gt;Item 2&lt;/li&gt;
+                                    &lt;li&gt;Item 3&lt;/li&gt;
+                                    &lt;li&gt;Item 4&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/body&gt;
+                            &lt;/html&gt;
+                        </code>
+                    </pre>
+                </div>
+                <a href="Send-solution.html" class="link-sol">Send Us Your Solution</a>
+            </div>
+
+            <!-- ================== Exercieces 3 ================= -->
+
+            <div class="exes">
+                <h4 class="exs">Exercice 3:</h4>
+                <p>
+                    Create two different links (using anchor tags) that redirect to
+                    Google and Bing respectively.
+                </p>
+                <button class="show-sol" onclick="toggleSolution('solution3')" value="Show Solution">Show Solution</button>
+                <div class="solution" id="solution3">
+                    <p>Solution for Exercise 3 :</p>
+                    <code id="sol-code" class="plaintext">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang=&quot;en&quot;&gt;
+                        &lt;head&gt;
+                            &lt;meta charset=&quot;UTF-8&quot;&gt;
+                            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                            &lt;title&gt;Google and Bing Links&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+
+                            &lt;p&gt;Click the links to visit Google and Bing:&lt;/p&gt;
+                            
+                            &lt;a href=&quot;https://www.google.com&quot; target=&quot;_blank&quot;&gt;Go to Google&lt;/a&gt;
+                            &lt;br&gt;
+                            &lt;a href=&quot;https://www.bing.com&quot; target=&quot;_blank&quot;&gt;Go to Bing&lt;/a&gt;
+
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </div>         
+            <a href="Send-solution.html" class="link-sol">Send Us Your Solution</a>
+            </div>
+
+            <!-- ================== Exercieces 4 ================= -->
+
+            <div class="exes">
+                <h4 class="exs">Exercice 4:</h4>
+                <p>
+                    Make all links on this webpage appear as buttons. You can use the
+                    button tag for this purpose.
+                </p>
+                <button class="show-sol" onclick="toggleSolution('solution4')" value="Show Solution">Show Solution</button>
+                <div class="solution" id="solution4">
+                    <p>Solution for Exercise 4 :</p>
+                    <code id="sol-code" class="nohighlight">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang=&quot;en&quot;&gt;
+                        &lt;head&gt;
+                            &lt;meta charset=&quot;UTF-8&quot;&gt;
+                            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                            &lt;title&gt;Google and Bing Links&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+
+                            &lt;p&gt;Click the buttons to visit Google and Bing:&lt;/p&gt;
+                            
+                            &lt;button onclick=&quot;window.location.href='https://www.google.com'&quot; target=&quot;_blank&quot;&gt;Go to Google&lt;/button&gt;
+                            &lt;br&gt;
+                            &lt;button onclick=&quot;window.location.href='https://www.bing.com'&quot; target=&quot;_blank&quot;&gt;Go to Bing&lt;/button&gt;
+
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                </div>
+                <a href="Send-solution.html" class="link-sol">Send Us Your Solution</a>
+            </div>
+
+            <!-- ================== Exercieces 5 ================= -->
+
+            <div class="exes">
+                <h4 class="exs">Exercice 5:</h4>
+                <p>
+                    Créez un tableau HTML pour représenter une liste de courses. 
+                    Incluez des colonnes pour les articles, les quantités, et les prix. 
+                    Utilisez les éléments de tableau tels que &lt;table&gt; , &lt;tr&gt; , &lt;th&gt; , &lt;td&gt;.
+                </p>
+                <button class="show-sol" onclick="toggleSolution('solution5')" value="Show Solution">Show Solution</button>
+                <div class="solution" id="solution5">
+                    <p>Solution for Exercise 5 :</p>
+                    <pre>
+                    <code class="sol-code">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang=&quot;en&quot;&gt;
+                        &lt;head&gt;
+                            &lt;meta charset=&quot;UTF-8&quot;&gt;
+                            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                            &lt;title&gt;Liste de Courses&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;h2&gt;Liste de Courses&lt;/h2&gt;
+
+                            &lt;table border=&quot;1&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;Article&lt;/th&gt;
+                                        &lt;th&gt;Quantit&eacute;&lt;/th&gt;
+                                        &lt;th&gt;Prix&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Pain&lt;/td&gt;
+                                        &lt;td&gt;2&lt;/td&gt;
+                                        &lt;td&gt;1.50$&lt;/td&gt;
+                                    &lt;/tr&gt;
+
+                                    &lt;tr&gt;
+                                        &lt;td&gt;Lait&lt;/td&gt;
+                                        &lt;td&gt;1&lt;/td&gt;
+                                        &lt;td&gt;2.00$&lt;/td&gt;
+                                    &lt;/tr&gt;
+
+                                    &lt;tr&gt;
+                                        &lt;td&gt;&OElig;ufs&lt;/td&gt;
+                                        &lt;td&gt;1 douzaine&lt;/td&gt;
+                                        &lt;td&gt;3.50$&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;!-- Ajoutez d'autres lignes au besoin --&gt;
+
+                                &lt;/tbody&gt;
+
+                            &lt;/table&gt;
+
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                    </pre>
+                </div>
+                    <a href="Send-solution.html" class="link-sol">Send Us Your Solution</a>
+                </div>
+            <!-- ================== Exercieces 6 ================= -->
+
+            <div class="exes">
+                <h4 class="exs">Exercice 6 :</h4>
+                <p>
+                    Concevez un formulaire de contact simple comprenant des champs tels que nom, email, sujet et message. 
+                    Utilisez les éléments de formulaire tels que &lt;form&gt; , &lt;input&gt; , &lt;textarea&gt; , &lt;button&gt;.
+                </p>
+                <button class="show-sol" onclick="toggleSolution('solution6')" value="Show Solution">Show Solution</button>
+                <div class="solution" id="solution6">
+                    <p>Solution for Exercise 6 :</p>
+                    <pre>
+                    <code class="sol-code">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang=&quot;en&quot;&gt;
+                        &lt;head&gt;
+                            &lt;meta charset=&quot;UTF-8&quot;&gt;
+                            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                            &lt;title&gt;Formulaire de Contact&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+
+                            &lt;h2&gt;Formulaire de Contact&lt;/h2&gt;
+
+                            &lt;form action=&quot;process_contact.php&quot; method=&quot;post&quot;&gt;
+                                &lt;label for=&quot;nom&quot;&gt;Nom :&lt;/label&gt;
+                                &lt;input type=&quot;text&quot; id=&quot;nom&quot; name=&quot;nom&quot; required&gt;
+
+                                &lt;label for=&quot;email&quot;&gt;Email :&lt;/label&gt;
+                                &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
+
+                                &lt;label for=&quot;sujet&quot;&gt;Sujet :&lt;/label&gt;
+                                &lt;input type=&quot;text&quot; id=&quot;sujet&quot; name=&quot;sujet&quot; required&gt;
+
+                                &lt;label for=&quot;message&quot;&gt;Message :&lt;/label&gt;
+                                &lt;textarea id=&quot;message&quot; name=&quot;message&quot; rows=&quot;4&quot; required&gt;&lt;/textarea&gt;
+
+                                &lt;button type=&quot;submit&quot;&gt;Envoyer&lt;/button&gt;
+                            &lt;/form&gt;
+
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code>
+                    </pre>
+                </div>
+                    <a href="Send-solution.html" class="link-sol">Send Us Your Solution</a>
+                </div>
+        </div>
+    </section>
+    <section> 
+        <div class="separatorhome"></div>
+    </section>
+
+    <!-- ============================ footre ============================== -->
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+            <img src="logo-site-web.png" alt="this is our logo" />
+            </div>
+            <p>Visit us on social media if you need help.</p>
+            <div class="socials">
+            <a
+                href="https://www.facebook.com/ProgZHC/"
+                target="_blank"
+                id="facebook"
+                ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+                href="https://www.instagram.com/zouhair_choufa/"
+                target="_blank"
+                id="instagram"
+                ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+                href="https://www.linkedin.com/in/zouhair-choufa-86ab5626a/"
+                target="_blank"
+                id="linkedin"
+                ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            </div>
+        </div>
+    <div class="column">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+        </div>
+        <div class="column">
+        <h4>About Us</h4>
+        <a href="About-us.html">Blogs</a>
+        <a href="https://www.facebook.com/ProgZHC/">Channels</a>
+        <a href="#">Sponsors</a>
+        </div>
+        <div class="column">
+        <h4>Contact</h4>
+        <a href="contacte_us.php">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright&copy;2023&nbsp;CODDING&nbsp;WEBSCHOOL.&nbsp;All&nbsp;Rights&nbsp;Reserved.
+    </div>
+
+        <script>
+            let mybutton = document.getElementById("myBtn");
+
+            // Lorsque l'utilisateur fait défiler de 20 pixels en bas à partir du haut du document, afficher le bouton
+            window.onscroll = function () {
+                scrollFunction();
+            };
+            // Fonction de défilement
+            function scrollFunction() {
+                // Vérifier si la position de défilement est supérieure à 20 pixels à partir du haut du document
+                if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+                ) {
+                // Afficher le bouton en modifiant le style d'affichage à "block"
+                mybutton.style.display = "block";
+                } else {
+                // Masquer le bouton en modifiant le style d'affichage à "none"
+                mybutton.style.display = "none";
+                }
+            }
+            // Lorsque l'utilisateur clique sur le bouton, faire défiler le document vers le haut avec un défilement en douceur
+            function topFunction() {
+                // Faire défiler le corps du document à la position 0 avec un défilement en douceur
+                document.body.scrollTo({
+                top: 0,
+                behavior: "smooth",
+                });
+                // Faire défiler l'élément document à la position 0 avec un défilement en douceur
+                document.documentElement.scrollTo({
+                top: 0,
+                behavior: "smooth",
+                });
+            }
+
+            function scrollToElement(elementSelector, instance = 0) {
+                const elements = document.querySelectorAll(elementSelector);
+                if (elements.length > instance) {
+                    elements[instance].scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+            const link2 = document.getElementById("link2");
+            link2.addEventListener('click', () => {
+                scrollToElement('.column');
+            });
+
+            function toggleSolution(solutionId) {
+                var solution = document.getElementById(solutionId);
+                if (solution.style.display === "block") {
+                    solution.style.display = "none";
+                } else {
+                    solution.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contacte_us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/remixicon.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">
+            <p>Coding WebSchool</p>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="coding.html" class="link active">Home</a></li>
+                <li><a href="Article_selection.html" class="link">Services</a></li>
+                <li><a href="#" class="link" id="link1">About Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" id="LoginBtn">Contacte Us</button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+
+    <header  class="container">
+    <div class="content">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Please feel free to contact us using the information below:</p>
+        <div class="separator"></div>
+    </div>
+    </header>
+    <section class="container">
+    <div class="form-box">    
+        <form action="contact.php" method="post" class="register-container" id="register" onSubmit="verification()">
+            <div class="top">
+                <header>If you prefer, you can also use the form below to send us a message : </header>
+            </div>
+            <div class="two-forms">
+                <div class="input-box">
+                    <input type="text" class="input-field" name="FullName" id="FullName" placeholder="Full Name" autofocus>
+                </div>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" name="Email" id="Email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <label for="message" class="label"> Your Message : </label>
+            <textarea id="message" class="message"   name="message" rows="5" required></textarea>
+            </div>
+            <div class="input-box">
+                <input type="submit" class="submit" name="register" id="register" value="Send Message">
+                <br>
+                <input type="reset" class="submit" name="register" id="register" value="Annuler">
+            </div>
+        </form>
+    </div>
+    </section> 
+        <footer class="container">
+            <div class="par">
+                <p class="pfot">If you have any questions, feedback, or concerns, please don't hesitate to get in touch with us. We'll get back to you as soon as possible.</p>
+                <!-- <p class="pfot2">Thank you for reaching out ! </p> -->
+            </div>
+            <span class="blur"></span>
+            <div class="column">
+                <p class="support">You have all the support from ...</p>
+                <div class="logo">
+                    <p>Coding WebSchool</p>
+                </div>
+                <p>
+                    Visit us on social media if you need help.
+                </p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/ProgZHC/" target="_blank" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/zouhair_choufa/" target="_blank" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/zouhair-choufa-86ab5626a/" target="_blank" id="linkdin"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            Copyright &copy; 2023 CODDING WEBSCHOOL. All Rights Reserved.
+        </div>
+
+<!-- ==================  Some Java Script ===================== -->
+    <script>
+
+        function myMenuFunction() {
+            var i = document.getElementById("navMenu");
+            if (i.className === "nav-menu") {
+                i.className += " responsive";
+            } else {
+                i.className = "nav-menu";
+            }
+        }
+
+        function verification() {
+            if (document.getElementById("FullName").value == "") { alert("Veuillez taper votre nom !"); return false;}
+            if (document.getElementById("Email").value == "") { alert("Veuillez entrer votre adresse e-mail !"); return false;}
+            if (document.getElementById("Email").value.indexOf('@') == -1) { alert("Adresse e-mail incorrecte !"); return false; }    
+            if (document.getElementById("message").value == "") { alert("Veuillez taper un message !"); return false;}
+        }
+
+        function scrollToElement(elementSelector, instance = 0) {
+            const elements = document.querySelectorAll(elementSelector);
+            if (elements.length > instance) {
+                elements[instance].scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+        const link2 = document.getElementById("LoginBtn");
+        const link1 = document.getElementById("link1");
+        link1.addEventListener('click', () => {
+            scrollToElement('.column');
+        });
+        link2.addEventListener('click', () => {
+            scrollToElement('.form-box')
+        })
+    </script>
+</body>
+</html>

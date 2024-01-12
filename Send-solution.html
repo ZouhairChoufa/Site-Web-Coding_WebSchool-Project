@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Us Your Solution in a Message</title>
+    <link rel="stylesheet" href="Send-solution.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/remixicon.css">
+</head>
+<body>
+<nav class="nav">
+        <div class="nav-logo">
+            <p>Coding WebSchool</p>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="coding.html" class="link active">Home</a></li>
+                <li><a href="Article_selection.html" class="link">Services</a></li>
+                <li><a href="#" class="link" id="link1">About Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" id="LoginBtn">Send Us Solution</button>
+        </div>
+    </nav>
+
+<section class="container">
+    <div class="form-box">    
+        <form action="Solution-send.php" method="post" class="Solution-container">
+            <div class="top">
+                <h1>If you prefer, you can also use the form below to send us a message : </h1>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" name="Email" id="Email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" name="Exercice" id="Exercice" placeholder="Exercice Number">
+            </div>
+            <div class="input-box">
+                <label for="message" class="label"> Your Solution : </label>
+                <textarea id="message" class="message"  name="message" rows="6" required></textarea>
+            </div>
+            <div class="input-box">
+                <input type="submit" class="submit" name="Solution" id="Solution" value="Send Solution">
+            </div>
+        </form>
+    </div>
+</section>
+<br>
+<!-- Footer -->
+<footer class="container">
+    <span class="blur"></span>
+    <div class="column">
+        <p>Or you can also send the solution in a message through our social media.</p>
+        <div class="logo">
+            <p>Coding WebSchool</p>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com/ProgZHC/" target="_blank" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/zouhair_choufa/" target="_blank" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/zouhair-choufa-86ab5626a/" target="_blank" id="linkdin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+<br>
+<div class="copyright">
+    Copyright &copy; 2023 CODDING WEBSCHOOL. All Rights Reserved.
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>

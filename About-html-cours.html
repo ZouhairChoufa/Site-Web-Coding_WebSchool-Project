@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Html Cours</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/remixicon.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="About-html-cours.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css" integrity="sha512-vEZl+3zuz3YSJz9Lpo6MXbTN9z+M8EsD5h/tejskXUPXTY9Td5Al5PbuGpRhpDPNczhSVZl5gD1+6VHuC16PPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header >> nav -->
+    <nav>
+        <div class="nav-logo">
+            <img src="logo-seul-mon-site-web.png" alt="this is our logo">
+        </div>
+            <label for="btn" class="icon">
+            <i class="fa fa-bars"></i>
+            </label>
+            <input type="checkbox" id="btn">
+        <ul>
+            <li id="link">        
+                <a class="home-nav" href="coding.html"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a>
+            </li>
+            <li id="link1">
+                <a class="historique-html" href="#">Historique</a>
+            </li>
+            <li id="link2">
+                <a class="syntax-html" href="#">Basic Syntax</a>
+            </li>
+            <li id="link3">
+                <a href="#">Contacte Us&nbsp;&nbsp;<i class="far fa-paper-plane"></i></a>
+            </li>
+            <li>        
+                <a class="back-nav" href="Html_cours_detaille.html">Go Back &nbsp;<i class="fa-solid fa-angles-left"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- The content of the page -------  Header  ---------------- -->
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <p><span>HTML</span> Or "Hypertext Markup Language" dates back to the early days of the World Wide Web. 
+                Here's a brief overview of the evolution of HTML over time
+            </p>
+        </div>
+        <div class="image">
+            <img src="22-front-end-html-devloper-logo-hd.png" alt="this is programmer logo">
+            <!-- <img src="Html-devlopper-logo-png-computer.png" alt="this is programmer logo"> -->
+        </div>
+    </header>
+    <section class="about-html-histo">
+        <article>
+            <div class="box">
+                <h1 class="header">Html History</h1>
+                    <div class="paragraphs">
+                        <div>
+                            <p id="this-parag">
+                                1.<strong class="strong-p"> **HTML 1.0 (1991):**</strong> Tim Berners-Lee, the founder of the World Wide Web, created the first markup language to describe documents. It was a simple version of what would become HTML.
+                                <br>
+                                <br>
+                                2.<strong class="strong-p"> **HTML 2.0 (1995):**</strong> The first official set of HTML specifications was published as RFC 1866. This version included features such as forms and anchor (link) elements.
+                                <br>
+                                <br>
+                                3.<strong class="strong-p"> **HTML 3.0 (1997):**</strong> This version was developed by the World Wide Web Consortium (W3C). It introduced new features such as tables, applets, and color attributes.
+                                <br>
+                                <br>
+                                4.<strong class="strong-p"> **HTML 4.0 (1997-1998):**</strong> This version introduced style tags, Cascading Style Sheets (CSS), frames, client-side scripting (JavaScript), and more. HTML 4.01 was the final version of HTML 4.
+                                <br>
+                                <br>
+                                <!-- <span class="blur"></span>
+                                <span class="blur"></span> -->
+                                5.<strong class="strong-p"> **XHTML (2000):**</strong> XHTML (Extensible Hypertext Markup Language) was introduced as a reform of HTML using XML syntax. While XHTML introduced a stricter and more modular approach, it failed to replace HTML in general adoption.
+                                <br>
+                                <br>
+                                6.<strong class="strong-p"> **HTML5 (2008):**</strong> HTML5 development began in 2004 by the W3C. HTML5 introduced a plethora of new features, including semantic elements (such as <span>&lt; header &gt;</span>, <span>&lt; footer &gt;</span>, <span>&lt; article &gt;</span> ), APIs for graphic drawing, DOM manipulation, local storage management, and native support for audio and video.
+                                <br>
+                                <br>
+                                7.<strong class="strong-p"> **HTML Living Standard (2012 - Present):**</strong> Since HTML5, the W3C has adopted a "Living Standard" approach, meaning it is continually updated with new features and corrections.
+                                <br>
+                                <br>
+                                8.<strong class="strong-p"> **HTML 5.1 (2016) and HTML 5.2 (2017):**</strong> These versions brought improvements and clarifications to HTML5.
+                                <br>
+                                <br>
+                                    <span class="strong-p">HTML</span>  continues to evolve to meet the changing needs of the web, and its development is guided by the W3C in collaboration with the developer community. HTML remains the fundamental markup language for creating web pages.
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </article>
+        <article>
+            <div class="baseSyntax">
+                <h1 class="header">Basic Syntax </h1>
+                    <div class="Syntax">
+                        <div><p>HTML " Hypertext Markup Language " is used for structuring content on the web. Here are some basic HTML syntax examples:</p></div>
+                        <div>
+                            <p class="pone">1. HTML Document Structure :</p>
+                            <div class="codeone"><pre>
+    <code class="language-html">
+        &lt;!DOCTYPE html&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+                &lt;meta charset=&quot;UTF-8&quot;&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                &lt;title&gt;Document Title&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                ... Content goes here 
+            &lt;/body&gt;
+            &lt;/html&gt;
+    </code>
+</pre>
+                            </div>
+                            <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;!DOCTYPE html&gt;</span> : Declares the HTML version. <br>
+                                    <span class="point">&#183;</span><span class="balises">&lt;html lang=&quot;en&quot;&gt;</span> : The root element of an HTML page, with the language attribute set to English. <br>
+                                    <span class="point">&#183;</span><span class="balises">&lt;head&gt;</span> : Contains meta-information about the HTML document, like character set and viewport settings. <br>
+                                    <span class="point">&#183;</span><span class="balises">&lt;title&gt;</span> : Sets the title of the HTML document. <br>
+                                    <span class="point">&#183;</span><span class="balises">&lt;body&gt;</span> : Contains the content of the HTML document. <br>
+                                </p>
+                                <!-- <ol>
+                                    <li><b>&lt;!DOCTYPE html&gt;</b>: This declaration helps web browsers understand that this is an HTML5
+                                        <li><b>&lt;!DOCTYPE html&gt;</b>: This declaration helps web browsers understand that this is an HTML5
+                                            <li><b>&lt;!DOCTYPE html&gt;</b>: This declaration helps web browsers understand that the page is written in
+                                                <li><b>&lt;!DOCTYPE html&gt;</b>: This declaration helps web browsers to understand that this is an HTML
+                                </ol> pour faire une nemuration des line  -->
+                            </div>
+                        </div>
+                        <!--  -->
+                            <div>
+                                <p class="pone">2. Headings : </p>
+                                <div class="codeone"><pre><code class="language-html">
+            &lt;h1&gt;This is a Heading 1&lt;/h1&gt;
+            &lt;h2&gt;This is a Heading 1&lt;/h2&gt;
+
+            continue in the same thing ... up to h6</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;h1&gt; </span> To <span class="balises">&lt;h6&gt; </span> : Defines headings of different levels, where &lt;h1&gt; is the largest and &lt;h6&gt; is the smallest.
+                                </p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div>
+                                <p class="pone">3. Paragraph : </p>
+                                <div class="codeone"><pre><code class="language-html">
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;p&gt; </span> : Defines a paragraph.
+                                </p>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div>
+                                <p class="pone">4. Links : </p>
+                                <div class="codeone"><pre><code class="language-html">
+            &lt;a &nbsp;href=&nbsp;&quot;https://www.example.com&quot; &nbsp; target=&nbsp; &quot;_blank&quot;&gt;Visit Example.com&lt;/a&gt;
+</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;a &nbsp;href=&nbsp;&quot;https://www.example.com&quot; &nbsp; target=&nbsp; &quot;_blank&quot;&gt;</span>
+                                    : Creates a hyperlink to another page (in this case, &quot;https://www.example.com&quot;) that opens in a new tab/window (target= &quot;_blank&quot;).
+                                </p>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div>
+                                <p class="pone">5. Lists: </p>
+                                <div class="codeone"><pre><code class="language-html">
+            &lt;ul&gt;
+            &lt;li&gt; Item 1 &lt;/li&gt;
+            &lt;li&gt; Item 2 &lt;/li&gt;
+            ... you can add how much you want of " li " ...
+            &lt;/ul&gt;
+
+            &lt;ol&gt;
+            &lt;li&gt; Item 1 &lt;/li&gt;
+            &lt;li&gt; Item 2 &lt;/li&gt;
+            ... you can add how much you want of " ol " ...
+            &lt;/ol&gt;
+</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;ul&gt;</span>: Defines an unordered list (bullet points).
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;ol&gt;</span>: Defines an ordered list (numbered points).
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;li&gt;</span>: Defines a list item inside &lt;ul&gt; or &lt;ol&gt;.
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div>
+                                <p class="pone">6. Images : </p>
+                                <div class="codeone"><pre><code class="language-html">
+        &lt;img &nbsp;src=&nbsp;&quot;image.jpg&quot; &nbsp; alt=&nbsp; &quot;Description of the image si image pas affiche&quot;&gt;
+</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;img &nbsp;src=&nbsp;&quot;image.jpg&quot; &nbsp; alt=&nbsp; &quot;Description of the image si image pas affiche&quot;&gt;</span>
+                                    : Embeds an image with the specified source (src) and alternative text (alt).    
+                                </p>
+                                </div>
+                            </div>
+                            <!---->
+
+                            <div>
+                                <p class="pone">7. Forms : </p>
+                                <div class="codeone"><pre><code class="language-html">
+        &lt;form &nbsp;action=&nbsp;&quot;/submit&quot; &nbsp; method=&nbsp; &quot;post&quot;&gt;
+        &lt;label &nbsp;for=&nbsp;&quot;username&quot; &nbsp; method=&nbsp; &quot;post&quot;&gt; Username : &lt;/label &gt;
+        &lt;input &nbsp;type=&nbsp;&quot;text&quot;&nbsp;id=&nbsp;&quot;username&quot; &nbsp; name=&nbsp; &quot;username&quot; required&gt;
+
+        &lt;label &nbsp;for=&nbsp;&quot;password&quot;&gt; Password: &lt;/label &gt;
+        &lt;input &nbsp;type=&nbsp;&quot;text&quot;&nbsp;id=&nbsp;&quot;password&quot; &nbsp; name=&nbsp; &quot;password&quot; required&gt;
+
+        &lt;input &nbsp;type=&nbsp;&quot;submit&quot; &nbsp; value=&nbsp; &quot;Submit&quot;&gt;
+        &lt;/form&gt;
+</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;form &nbsp;action=&nbsp;&quot;/submit&quot; &nbsp; method=&nbsp; &quot;post&quot;&gt;</span>
+                                    : Creates a form that submits data to the server.    
+                                </p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;label&gt;</span>
+                                    : Defines a label for an input element.   
+                                </p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises"> &lt;input &nbsp;type=&nbsp;&quot;text&quot;&nbsp;id=&nbsp;&quot;username&quot; &nbsp; name=&nbsp; &quot;username&quot; required&gt;</span>
+                                    : Creates a text input field with an ID, name, and required attribute.    
+                                </p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises"> &lt;input &nbsp;type=&nbsp;&quot;submit&quot; &nbsp; value=&nbsp; &quot;Submit&quot;&gt;</span>
+                                    : Creates a submit button.    
+                                </p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div>
+                                <p class="pone">8. Divisions/Containers:</p>
+                                <div class="codeone"><pre><code class="language-html">
+        &lt;div&gt;
+            Content goes here
+        &lt;/div&gt;
+</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;div&gt;</span>
+                                    : Defines a division or a container to group and style HTML elements.   
+                                </p>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div>
+                                <p class="pone">9. Comments : </p>
+                                <div class="codeone"><pre><code class="language-html">
+        &lt;!-- This is a comment --&gt;
+</code>
+        </pre>
+                                </div> 
+                                <div>
+                                <p class="predefinit"><span class="arrow">&#8594;</span>The HTML document structure consists of the following elements:</p>
+                                <p>
+                                    <span class="point">&#183;</span><span class="balises">&lt;!-- This is a comment --&gt;</span>
+                                    : Adds comments that are not displayed in the browser, useful for notes or explanations in the code.  
+                                </p>
+                                </div>
+                            </div>
+            </div>
+        </article>
+        <hr>
+        <div class="separator"></div>
+        <!-- ======================  link and go back ======================= -->
+        <article>
+            <br>
+            <div class="exemples">
+                <h2 id="exemples" class="major">Examples of code using the language "HTML5", all that to learn basics syntax.</h2>
+                <div class="a">
+                    <a href="Exercice-list.html" class="button-scrolly">Exercice HTML</a>
+                </div>
+            </div>
+            <div class="separatorhome"></div>
+            <div class="linkhome">
+                <a id="link4"  href="#main" class="button-scrolly">Back to Top</a>
+            </div>
+        </article>
+    </section>
+
+    <!-- ============================================================================================================== -->
+    
+    <div class="separatorfoot"></div>
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        
+        <div class="column">
+            <div class="logo">
+                <img src="logo-site-web.png" alt="this is a our logo">
+            </div>
+            <p>
+                Visit us on social media if you need help.
+            </p>
+            <div class="socials">
+                <a href="https://www.facebook.com/ProgZHC/" target="_blank" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/zouhair_choufa/" target="_blank" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/zouhair-choufa-86ab5626a/" target="_blank" id="linkdin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="column" id="liens">
+            <h4>Company</h4>
+            <a href="#">Business</a>
+            <a href="#">Partnership</a>
+            <a href="#">Network</a>
+        </div>
+        <div class="column" id="liens">
+            <h4>About Us</h4>
+            <a href="About-us.html">Blogs</a>
+            <a href="https://www.facebook.com/ProgZHC/">Channels</a>
+            <a href="#">Sponsors</a>
+        </div>
+        <div class="column" id="liens">
+            <h4>Contact</h4>
+            <a href="contacte_us.php">Contact Us</a>
+            <a href="#">Privicy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+    <div class="copyright">
+        Copyright &copy; 2023 CODDING WEBSCHOOL. All Rights Reserved.
+    </div>
+
+    <script src="About-html-cours.js"></script>
+</body>
+</html>
